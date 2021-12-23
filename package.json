@@ -3,6 +3,9 @@
     "displayName": "Inline Bookmarks",
     "description": "Customizable inline Bookmarks",
     "version": "0.0.26",
+    "scripts": {
+        "build": "yarn version && npx vsce package"
+    },
     "keywords": [
         "bookmark",
         "bookmarks",
